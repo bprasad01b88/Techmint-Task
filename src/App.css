@@ -1,0 +1,30 @@
+/* App.css */
+
+.app-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.order-form, .main-display {
+  width: 45%;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px;
+}
+
+.order-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.order-card.ready {
+  background-color: #ffcccc;
+}
+
+button {
+  margin-top: 10px;
+  cursor: pointer;
+}
